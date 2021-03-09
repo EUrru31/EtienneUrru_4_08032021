@@ -28,7 +28,8 @@ a:hover {
 }
 
 .bloc {
-    width: 100%;
+    display: flex;
+    justify-content: space-between;
     clear: both;
     background: 50% 50% no-repeat;
     padding: 0 50px;
@@ -368,7 +369,7 @@ a:hover {
     .site-navigation {
         position: absolute;
         top: 50%;
-        right: 20px;
+        right: 100px;
         transform: translate(0, -50%);
         -webkit-transform: translateY(-50%);
     }
@@ -526,8 +527,8 @@ button {
 }
 
 .col-sm-6 {
-    display: flex;
-    justify-content: center;
+    display: flex !important;
+    justify-content: center !important;
 }
 
 .scrollToTop {
@@ -676,10 +677,6 @@ a {
     color: #575757 !important;
 }
 
-.container {
-    max-width: 1000px;
-}
-
 .hero-bloc-text {
     font-size: 38px;
 }
@@ -764,6 +761,8 @@ h4 {
 
 .white {
     color: #ffffff !important;
+    display: flex;
+    justify-content: center;
 }
 
 .portfolio-thumb {
@@ -802,7 +801,9 @@ h4 {
 }
 
 .tc-white {
-    color: #f3976c !important;
+    color: black !important;
+    display: flex;
+    justify-content: center;
 }
 
 .btn-atomic-tangerine {
@@ -889,7 +890,7 @@ h4 {
     }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1490px) {
     .container {
         width: 100%;
     }
@@ -998,6 +999,7 @@ h4 {
         float: none;
         width: 100%;
     }
+
     .nav-invert .navbar-toggle {
         float: left;
         margin-left: 10px;
@@ -1070,3 +1072,8 @@ h4 {
         text-align: center;
     }
 }
+
+@media (min-width: 1490px) {
+    .container {
+        width: 100%;
+    }
