@@ -656,6 +656,11 @@ a[data-lightbox]:hover img {
     right: 25px;
 }
 
+.citation {
+    font-weight: bold;
+    font-style: italic;
+}
+
 .prev-lightbox {
     padding: 6px 13px 1px 10px;
     left: 25px;
@@ -714,6 +719,9 @@ p {
     display: flex !important;
     justify-content: center !important;
     color: black;
+    margin: auto;
+    width: 80%;
+    text-align: center;
 }
 
 .tight-width-whitespace {
@@ -784,6 +792,8 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    width: 90%;
+    margin: 10px auto;
 }
 
 .portfolio-row {
