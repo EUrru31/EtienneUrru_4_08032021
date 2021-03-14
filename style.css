@@ -745,7 +745,7 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: 20px;
 }
 
 .text {
@@ -786,6 +786,13 @@ h4 {
 
 .white {
     color: #ffffff !important;
+    display: flex;
+    justify-content: center;
+}
+
+.black {
+    color: black !important;
+
     display: flex;
     justify-content: center;
 }
