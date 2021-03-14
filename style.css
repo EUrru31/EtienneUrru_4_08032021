@@ -745,7 +745,8 @@ p {
 
 .social {
     max-width: 400px;
-    margin: 20px;
+    margin: auto;
+    display: flex;
 }
 
 .text {
