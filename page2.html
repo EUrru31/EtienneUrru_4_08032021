@@ -111,45 +111,29 @@
                                 fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!"
                             >
                                 <div class="form-group">
-                                    <label> Nom </label>
-                                    <input
-                                        id="name"
-                                        class="form-control"
-                                        required
-                                    />
-                                </div>
-                                <div class="form-group">
-                                    <label> Adresse email </label>
-                                    <input
-                                        id="email"
-                                        class="form-control"
-                                        type="email"
-                                        required
-                                    />
-                                </div>
-                                <div class="form-group">
-                                    <label>
-                                        Comment nous avez-vous connu ?
-                                    </label>
-                                    <input
-                                        class="form-control"
-                                        type="email"
-                                        required
-                                        id="input_504"
-                                    />
-                                </div>
-                                <div class="form-group">
-                                    <label>
-                                        Brief de votre projet (Ajoutez autant de
-                                        détails que nécessaire)<br /> </label
-                                    ><textarea
-                                        id="message"
-                                        class="form-control"
-                                        rows="4"
-                                        cols="50"
-                                        required
-                                    ></textarea>
-                                </div>
+                                    <div class="form-group">
+                                        <label for="name">
+                                            Nom
+                                        </label>
+                                        <input id="name" class="form-control" placeholder="Nom requis" required />
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="email">
+                                            Adresse email
+                                        </label>
+                                        <input id="email" class="form-control" type="email" placeholder="Email requis" required />
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="input_504">
+                                            Comment nous avez-vous connu ?
+                                        </label>
+                                        <input class="form-control" type="email" required id="input_504" />
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="message">
+                                            Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
+                                        </label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+                                    </div> 
                                 <button
                                     class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine"
                                     type="submit"
@@ -183,7 +167,7 @@
                 <div class="container bloc-sm">
                     <div class="row">
                         <div class="col-sm-12">
-                            <p class="text text-center white">
+                            <p class="text text-center black">
                                 La chouette agence - Agence web basée à Lyon.<br />
                             </p>
                             <div class="row row-no-gutters social">
