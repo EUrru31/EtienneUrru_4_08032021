@@ -847,14 +847,14 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #f3976c;
-    color: white !important;
+    color: black !important;
     width: 100%;
     border-radius: 5px;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956 !important;
-    color: #ffffff !important;
+    color: black !important;
 }
 
 .ltc-white {
